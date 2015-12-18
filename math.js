@@ -32,7 +32,7 @@ let server = http.createServer((req, res) =>{
   }
   else {
     res.statusCode = 404;
-    res.write("<h1>YOU SUCK</h1>")
+    res.write("<h1>Not Found</h1>")
     res.end()
   }
   res.end()
